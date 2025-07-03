@@ -4,12 +4,12 @@ android {
     if (project.android.hasProperty("namespace")) {
         namespace 'com.arthenica.ffmpegkit'
     }
-    compileSdk 35
+    compileSdk 36
     ndkVersion "22.1.7171670"
 
     defaultConfig {
         minSdk 24
-        targetSdk 35
+        targetSdk 36
         versionCode 240600
         versionName "6.0"
         project.archivesBaseName = "ffmpeg-kit"
